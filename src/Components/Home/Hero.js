@@ -14,7 +14,10 @@ const Hero = () => {
                 <div className="order-first">
                     <h1 class="text-5xl w-full ">Request <br></br><span className="font-bold">Smart Quotes</span><br></br> from professionals</h1>
                     <p class="py-6 text-[#8D9BB3]">Get quick Quotes from business Search <br></br> and connect with the best professionals and business</p>
-                    <button class="btn bg-[#0C0C0C] rounded capitalize">Post requirement now</button>
+                    <div className="flex justify-center items-center flex-col lg:block md:block">
+                        <button class="btn w-[374px] mb-5 bg-[#0C0C0C] rounded capitalize">Post requirement now</button>
+                        <button class="btn w-[374px] block md:hidden lg:hidden bg-base-200  text-black rounded capitalize">Join as a professional</button>
+                    </div>
                 </div>
             </div>
         </div>
