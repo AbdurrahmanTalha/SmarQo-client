@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const PLogin = () => {
+const Login = () => {
     return (
         <div className=" py-10">
-            <div class="card lg:w-3/6 md:w-3/6 sm:w-4/6 mx-auto flex-shrink-0   shadow-2xl bg-base-100  my-10 ">
-                <h2 className="text-[69px] font-medium ml-5">Login</h2>
+            <div class="card  w-2/6 mx-auto flex-shrink-0 shadow-2xl bg-base-100  my-10 ">
+                <h2 className="text-[69px] sm:font-3xl md:font-medium lg:font-medium ml-5">Register <span className="text-xl text-blue-400">As a professional</span></h2>
                 <div class="card-body">
                     <form action="" >
 
@@ -54,4 +54,4 @@ const PLogin = () => {
     );
 };
 
-export default PLogin;
+export default Login;

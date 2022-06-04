@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Register = () => {
+const PRegister = () => {
     return (
         <div className=" py-10">
             <div class="card lg:w-3/6 md:w-3/6 sm:w-5/6 mx-auto flex-shrink-0 shadow-2xl bg-base-100 my-auto ">
-                <h2 className="text-[69px] sm:font-3xl md:font-medium lg:font-medium ml-5">Register </h2>
+                <h2 className="text-[69px] sm:font-3xl md:font-medium lg:font-medium ml-5">Register <span className="text-xl text-blue-400">As a professional</span></h2>
                 <div class="card-body">
                     <form action="" >
                         <div className="lg:grid lg:grid-cols-2 lg:gap-5 md:grid md:grid-cols-1">
@@ -62,4 +62,4 @@ const Register = () => {
     );
 };
 
-export default Register;
+export default PRegister;
