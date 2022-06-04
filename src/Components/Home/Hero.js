@@ -4,7 +4,7 @@ import home2 from "../../images and icons/home 2nd image.png"
 import home3 from "../../images and icons/home 3rd image.png"
 const Hero = () => {
     return (
-        <div class="hero min-h-screen">
+        <div class="hero min-h-screen mb-72 lg:mb-0 md:mb-96">
             <div class="hero-content grid lg:grid-cols-2 sm:grid-cols-1">
                 <div className="flex flex-col">
                     <img src={home1} alt="" />
