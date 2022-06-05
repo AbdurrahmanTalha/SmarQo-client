@@ -6,8 +6,6 @@ import "./App.css"
 import Footer from './Components/Shared/Footer';
 import Register from './Page/Register';
 import Login from './Page/Login';
-import PRegister from './Page/PRegister';
-import PLogin from './Page/Login';
 import SmartQuotes from './Page/SmartQuotes';
 
 function App() {
@@ -18,8 +16,6 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/register" element={<Register></Register>}></Route>
-          <Route path="/pregister" element={<PRegister></PRegister>}></Route>
-          <Route path="/plogin" element={<PLogin></PLogin>}></Route>
           <Route path="/SmartQuotes" element={<SmartQuotes></SmartQuotes>}></Route>
         </Routes>
         <Footer></Footer>
