@@ -43,7 +43,7 @@ const Navbar = ({ children }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-base-200">
+                    <div className="bg-base-200 mb-12">
                         {children}
                     </div>
                 </div>

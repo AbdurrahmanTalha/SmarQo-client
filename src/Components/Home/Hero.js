@@ -7,8 +7,8 @@ import "./Hero.css"
 const Hero = () => {
     return (
         <div className="hero min-h-screen">
-            <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1">
-                <div className="flex flex-col items-center justify-center">
+            <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1 mt-16">
+                <div className="flex flex-col items-center justify-center mt-24 lg:mt-0 md:mt-0">
                     <div className='block md:flex lg:flex'>
                         <img src={Girl} alt="" className="mx-auto lg:md:mx-none z-0" />
                         <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[-10px] lg:mt-[10px] md:mt-[20px] ml-[-16px] flex  relative z-20'>
