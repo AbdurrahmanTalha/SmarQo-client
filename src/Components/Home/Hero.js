@@ -16,7 +16,7 @@ const Hero = () => {
                     <p class="py-6 text-[#8D9BB3]">Get quick Quotes from business Search <br></br> and connect with the best professionals and business</p>
                     <div className="flex btn-wide  justify-center items-center flex-col lg:block md:block">
                         <button class="btn btn-wide mb-5 bg-[#0C0C0C] rounded capitalize">Post requirement now</button>
-                        <button class="btn  btn-wide  md:hidden lg:hidden bg-base-200  text-black rounded capitalize">Join as a professional</button>
+                        <button class="btn btn-wide sm:block md:hidden lg:hidden bg-base-200  text-black rounded capitalize">Join as a professional</button>
                     </div>
                 </div>
             </div>
