@@ -9,14 +9,14 @@ const Hero = () => {
     return (
         <div class="hero min-h-screen">
             <div class="hero-content grid lg:grid-cols-2 sm:grid-cols-1">
-                <div className="flex flex-col">
+                <div className="flex flex-col items-center justify-center">
                     <div className='flex'>
                         <img src={Girl} alt="" />
                         <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[10px] 
                         ml-[-35px] flex'>
                             <div>
                                 <h2 className='text-[1.2rem] text-[#FFFFFF]'>Tell us what u need</h2>
-                                <p className='text-[12px] text-[#FFFFFF]'>Whatever the service you're looking for, we'll help you find a professional for the job.</p>
+                                <p className='text-[12px] pt-2 text-[#FFFFFF]'>Whatever the service you're looking for, we'll help you find a professional for the job.</p>
                             </div>
                             <div className="overflow-hidden w-1/5 mb-[-60px] mr-[-5px]">
                                 <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-18px]">1</div>
@@ -24,17 +24,47 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <img src={home2} alt="" />
+                    <div className='flex flex-row-reverse'>
+                        <div>
+                            <img className='' src={Phone} alt="" />
+                        </div>
+                        <div className='bg-[#202020] w-[446px] h-[100%] mt-[60px] mr-[-38px]  py-4 px-6 '>
+                            <div className='flex mr-[-30px] justify-between'>
+                            <h2 className='text-[1.2rem] text-[#FFFFFF]'>Get Smart Quotes from <br/> top industry experts</h2>
+                            <h2 className='text-[114px] text-[#454545] w-[100% font-semibold mt-[-57px] mb-[-55px]'>2</h2>
+                            </div>
+                            <p className='text-[12px] text-[#FFFFFF] pt-2 w-[284px]'>Check out their profiles, scores and websites to help you
+                                make a decision.</p>
+                        </div>
+
+                    </div>
+
+                    {/* <div className="hero-phone relative">
+                        <div className="z-10 w-full">
+                            <img className="w-full" src={Phone} alt="" />
+                        </div>
+                        <div className="bg-[#202020] h-[171px] w-100 absolute ml-[-165px] overflow-y-hidden  z-50 mt-[-336px]  py-4 px-6  text-white ">
+                            <h2 className="text-[1.2rem] ">Get Smart Quotes from
+                                <br></br>top industry experts</h2>
+                            <p className="text-xs">Check out their profiles, scores and websites to help you
+                                <br></br> make a decision.</p>
+                            <div className="flex justify-end items-start mt-[-146px] ml-[53px] overflow-y-hidden">
+                                <p className="text-[#707070] text-[114px]">2</p>
+                            </div>
+                        </div>
+                    </div> */}
+
+                    {/* <img src={home2} alt="" /> */}
                     {/* <img src={home3} alt="" /> */}
 
-                    <div className='flex'>
+                    <div className='flex mt-[-70px]'>
                         <img src={Man} alt="" />
                         <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[130px] 
                         ml-[-35px] flex'>
                             <div>
                                 <h2 className='text-[1.2rem] text-[#FFFFFF]'>Hire the best professional
                                 </h2>
-                                <p className='text-[12px] text-[#FFFFFF]'>find the best ones for what you need & Connect!</p>
+                                <p className='text-[12px] pt-2 text-[#FFFFFF]'>find the best ones for what you need & Connect!</p>
                             </div>
                             <div className="overflow-hidden w-[32%] mr-[-48px] mb-[-60px]">
                                 <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-26px]">3</div>
