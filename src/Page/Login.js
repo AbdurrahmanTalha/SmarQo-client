@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import facebook from "../images and icons/Facebook.png"
+import google from "../images and icons/Google.png"
 
 const PLogin = () => {
     return (
@@ -31,23 +33,33 @@ const PLogin = () => {
                             </label>
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <input type="submit" value="Register" className="btn my-4 bg-[#0C0C0C] text-white "></input>
+                            <input type="submit" value="Login" className="btn my-4 bg-[#0C0C0C] text-white "></input>
                         </div>
                         <div class="flex flex-col w-full border-opacity-50">
-
                             <div class="divider">OR</div>
-                            <Link to="/login" className="text-center">Register</Link>
+                            <div className="mx-auto">
+                                <button className="btn bg-white flex justify-between items-center text-black">
+                                    <img className="w-10 mr-3" src={facebook} alt="" />
+                                    <span>Continue With Facebook</span>
+                                </button>
+                                <button className="btn my-5 bg-white flex justify-between items-center text-black">
+                                    <img className="w-10 mr-3" src={google} alt="" />
+                                    <span>Continue With Facebook</span>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div className="flex justify-center w-half">
-                <p className="text-center mr-11 text-gray-400">Offering a service?</p>
-                <Link to="/" className="underline text-blue-500">Join as a professional</Link>
-            </div>
-            <div className="flex justify-center w-half">
-                <p className="text-center mr-10 text-gray-400">Looking for a service?</p>
-                <Link to="/" className="underline text-blue-500">Get Started?</Link>
+            <div>
+                <div className="flex justify-center w-half">
+                    <p className="text-center mr-11 text-gray-400">Offering a service?</p>
+                    <Link to="/" className="underline text-blue-500">Join as a professional</Link>
+                </div>
+                <div className="flex justify-center w-half">
+                    <p className="text-center mr-10 text-gray-400">Looking for a service?</p>
+                    <Link to="/" className="underline text-blue-500">Get Started?</Link>
+                </div>
             </div>
 
         </div>

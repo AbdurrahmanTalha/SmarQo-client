@@ -54,10 +54,7 @@ const PRegister = () => {
                         </div>
                     </form>
                 </div>
-
-
             </div>
-
         </div>
     );
 };

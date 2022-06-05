@@ -10,29 +10,31 @@ const Navbar = ({ children }) => {
                 <div class="drawer-content flex flex-col">
                     {/* <!-- Navbar --> */}
 
-                    <div class="w-full shadow-lg navbar pb-12 pt-10">
+                    <div class="w-full shadow-lg navbar pb-12 pt-16">
                         <div class="flex-1 px-2 mx-2 lg:block sm:block">
                             <div className="flex items-center justify-start">
-                                <Link to="/" className="flex items-center justify-start "><img  src={logo} className="w-[125px]" alt="" />
-                                    <span className=" md:block hidden lg:block ">SmarQo</span></Link>
+                                <Link to="/" className="flex items-center justify-start mr-[94px] "><img src={logo} className="w-[125px]" alt="" />
+                                    <span className=" md:block hidden lg:block text-[31px]">SmarQo</span></Link>
                                 <div class="dropdown bg-none hidden lg:block md:block">
-                                    <label tabindex="0" class="ml-5">
-                                        Explore <i class="fa-solid fa-arrow-down"></i>
+                                    <label tabindex="0" class="ml-5 ">
+                                        <span className="text-sm text-[#5D6277]">Explore  <i class="fa-solid fa-arrow-down"></i></span>
                                     </label>
                                     <ul tabindex="0" class="dropdown-content flex flex-col menu p-2 shadow bg-base-100 rounded-box w-52">
-                                        <li><Link to="/login" className="text-[#B4B8CC]">LOGIN</Link></li>
-                                        <li><Link to="/register" className="text-[#B4B8CC]">SIGN UP</Link></li>
+                                        <li><Link to="/login" className="text-[#B4B8CC] sm:btn ">LOGIN</Link></li>
+                                        <li><Link to="/register" className="text-[#B4B8CC] sm:btn">SIGN UP</Link></li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
                         <div>
-                            <div class="flex-none block">
+                            <div class="flex-none block justify-center items-center">
                                 <ul class="menu menu-horizontal flex flex-col ">
                                     {/* <!-- Navbar menu content here --> */}
-                                    <div className="flex mr-0 ml-auto">
-                                        <li><Link to="/login" className="text-[#B4B8CC]"><small>LOGIN</small></Link></li>
+                                    <div className="flex mr-0 ml-auto mb-2">
+                                        <li><Link to="/login" className="text-[#B4B8CC] hidden
+                                        md:block lg:block"><small>LOGIN</small></Link></li>
+                                        <li><Link to="/login" className="text-[#B4B8CC] lg:hidden sm:hidden block text-white btn m"><small>LOGIN</small></Link></li>
                                         <li><Link to="/register" className="text-[#B4B8CC]"><small>SIGN UP</small></Link></li>
                                     </div>
                                     <div className="lg:flex md:flex hidden ">
@@ -44,7 +46,6 @@ const Navbar = ({ children }) => {
                         </div>
                     </div>
                     <div className="bg-base-200">
-
                         {children}
                     </div>
                 </div>
