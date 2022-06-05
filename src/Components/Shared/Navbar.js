@@ -12,6 +12,10 @@ const Navbar = ({ children }) => {
 
                     <div className="w-full shadow-xs navbar py-12 mb-28">
                         <div className="flex-1 px-2 mx-2 lg:block sm:block">
+
+                    <div class="w-full shadow-xs navbar py-6 mb-6">
+                        <div class="flex-1 px-2 mx-2 lg:block sm:block">
+
                             <div className="flex items-center justify-start">
                                 <Link to="/" className="flex items-center justify-start mr-[94px] "><img src={logo} className="w-[125px]" alt="" />
                                     <span className="ml-[-25px] md:block hidden lg:block text-[31px]">SmarQo</span></Link>
