@@ -52,7 +52,7 @@ const Home = () => {
             <div className="section2_slip">
               <div className="slip">
                 <div className="slipHeading">
-                  Get Smart Quotes from top industry experts
+                  Get Smart Quotes from top industry experts yoiyiouou
                 </div>
                 <div className="slipSubHeading">
                   Check out their profiles, scores and websites to help you make
