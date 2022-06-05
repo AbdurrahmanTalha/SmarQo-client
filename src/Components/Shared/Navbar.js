@@ -34,7 +34,7 @@ const Navbar = ({ children }) => {
                                     <div className="flex mr-0 ml-auto mb-2">
                                         <li><Link to="/login" className="text-[#B4B8CC] hidden
                                         md:block lg:block"><small>LOGIN</small></Link></li>
-                                        <li><Link to="/login" className="text-[#B4B8CC] lg:hidden sm:hidden block text-white btn m"><small>LOGIN</small></Link></li>
+                                        <li><Link to="/login" className="text-[#B4B8CC] lg:hidden sm:hidden block btn m"><small>LOGIN</small></Link></li>
                                         <li><Link to="/register" className="text-[#B4B8CC]"><small>SIGN UP</small></Link></li>
                                     </div>
                                     <div className="lg:flex md:flex hidden ">

@@ -15,38 +15,38 @@ const SmartQuotes = () => {
                                 <label class="label">
                                     <span class="label-text">Add <span className="font-bold">Title</span> to your quote request</span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input  input-bordered focus:border-0 w-auto " />
                             </div>
                             <div class="form-control w-full mr-5">
                                 <label class="label">
                                     <span class="label-text">Select Your <span className="font-bold">Location</span></span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input focus:border-0 input-bordered w-auto " />
                             </div>
                             <div class="form-control w-full mr-5">
                                 <label class="label">
                                     <span class="label-text">Tell us more about your <span className="font-bold">requirements</span> here</span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input focus:border-0 input-bordered w-auto " />
                             </div>
                             <div class="form-control w-full mr-5">
                                 <label class="label">
                                     <span class="label-text"><span className="font-bold">When</span> do you need this?</span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input focus:border-0 input-bordered w-auto " />
                             </div>
 
                             <div class="form-control w-full mr-5">
                                 <label class="label">
                                     <span class="label-text">Add <span className="font-bold">industry tags</span> related to your request</span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input focus:border-0 input-bordered w-auto " />
                             </div>
                             <div class="form-control w-full mr-5">
                                 <label class="label">
                                     <span class="label-text">How do you want the professional to <span className="font-bold">contact</span> you?</span>
                                 </label>
-                                <input type="text" class="input input-bordered w-auto " />
+                                <input type="text" class="input focus:border-0 input-bordered w-auto " />
                             </div>
                             <div className="flex justify-center items-center mt-7">
                                 <input type="submit" value="Post Requirements Now" className="btn bg-[#0C0C0C]" />

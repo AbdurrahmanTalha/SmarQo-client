@@ -13,39 +13,39 @@ const Register = () => {
                                     <span class="label-text">First name</span>
                                 </label>
                                 <label class="input-group">
-                                    <select class="select select-bordered">
+                                    <select class="select select-bordered focus:border-0">
                                         <option disabled selected>Title</option>
                                         <option>Mr. </option>
                                         <option>Mrs. </option>
                                         <option>Other</option>
                                     </select>
-                                    <input type="text" placeholder="" class="input input-bordered" />
+                                    <input type="text" placeholder="" class="input focus:border-0 input-bordered" />
                                 </label>
                             </div>
                             <div class="form-control sm:w-full ">
                                 <label class="label">
                                     <span class="label-text">Last name</span>
                                 </label>
-                                <input type="text" placeholder="" class="input input-bordered w-auto max-w-xs" />
+                                <input type="text" placeholder="" class="input focus:border-0 input-bordered w-auto max-w-xs" />
                             </div>
                         </div>
                         <div class="form-control w-full mr-5">
                             <label class="label">
                                 <span class="label-text">Email</span>
                             </label>
-                            <input type="text" placeholder="Enter your email" class="input input-bordered w-auto " />
+                            <input type="text" placeholder="Enter your email" class="focus:border-0 input input-bordered w-auto " />
                         </div>
                         <div class="form-control w-full mr-5">
                             <label class="label">
                                 <span class="label-text">Password</span>
                             </label>
-                            <input type="text" placeholder="Enter your Password" class="input input-bordered w-auto " />
+                            <input type="text" placeholder="Enter your Password" class="input focus:border-0 input-bordered w-auto " />
                         </div>
                         <div class="form-control w-full mr-5 mb-5">
                             <label class="label">
                                 <span class="label-text">Phone number`</span>
                             </label>
-                            <input type="text" placeholder="Enter your Phone Number" class="input input-bordered w-auto" />
+                            <input type="text" placeholder="Enter your Phone Number" class="input  focus:border-0 input-bordered w-auto" />
                         </div>
                         <div className="flex flex-col justify-center items-center">
                             <small className="flex"><input type="checkbox" class="checkbox mr-2" /> Read and accept terms and conditions

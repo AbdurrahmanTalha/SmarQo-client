@@ -12,13 +12,13 @@ const Login = () => {
                             <label class="label">
                                 <span class="label-text">Email</span>
                             </label>
-                            <input type="text" placeholder="Enter your email" class="input input-bordered w-auto " />
+                            <input type="text" placeholder="Enter your email" class="focus:border-0 input input-bordered w-auto " />
                         </div>
                         <div class="form-control w-full ">
                             <label class="label">
                                 <span class="label-text">Password</span>
                             </label>
-                            <input type="text" placeholder="Enter your Password" class="input input-bordered w-full" />
+                            <input type="text" placeholder="Enter your Password" class="focus:border-0 input input-bordered w-full" />
                             <label class="label">
                                 <div class="form-control">
                                     <label class="label cursor-pointer">
@@ -30,7 +30,7 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="flex flex-col justify-center items-center">
-                            <input type="submit" value="Login" className="btn mt-[28px] bg-[#0C0C0C] text-white "></input>
+                            <input type="submit" value="Login" className="btn focus:border-0 mt-[28px] bg-[#0C0C0C] text-white "></input>
                         </div>
 
                     </form>

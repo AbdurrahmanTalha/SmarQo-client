@@ -4,33 +4,30 @@ import flag from "../../images and icons/Mask Group 3.png"
 const Footer = () => {
     return (
         <div className="p-16 bottom-0 relative">
-            <footer class="footer grid grid-cols-2 lg:grid-cols-3 border-t-2 border-gray-500/30  p-10 text-base-content">
+            <footer class="footer grid grid-cols-2 lg:grid-cols-3 border-t-2 align-middle  border-gray-500/30  p-10 text-base-content">
                 {/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-16"> */}
-                <div className="mb-10 flex flex-col">
-                    <span class="footer-title">For Customers</span>
-                    <a class="link link-hover">Branding</a>
-                    <a class="link link-hover">Design</a>
-                    <a class="link link-hover">Marketing</a>
-                    <a class="link link-hover">Advertisement</a>
+                <div className="mb-10 flex flex-col lg:mr-24 mr-0">
+                    <a class="link link-hover">For Professionals</a>
+                    <a class="link link-hover">How it Works</a>
+                    <a class="link link-hover">Pricing</a>
+                    <a class="link link-hover">Join as a professional</a>
                 </div>
 
                 <div className="mb-10 flex flex-col">
-                    <span class="footer-title">About</span>
-                    <a class="link link-hover">Terms of use</a>
-                    <a class="link link-hover">Privacy policy</a>
-                    <a class="link link-hover">Cookie policy</a>
+                    <a class="link link-hover">Help Center</a>
+                    <a class="link link-hover">Mobile App</a>
                 </div>
-                <div className="mb-10 flex flex-col lg:mr-24 mr-0">
-                    <a class="link link-hover">For Professionals</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+                <div className="mb-10 flex flex-col">
+                    <span>For Customers</span>
+                    <a class="link link-hover">Find a professional</a>
+                    <a class="link link-hover">How it works</a>
+                    <a class="link link-hover">Login</a>
                 </div>
                 <div className="flex md:justify-end md:mr-0 lg:ml-auto lg:col-span-4">
                     <div class="form-control lg:w-80 sm:w-80 w-44 flex flex-col items-end">
                         <img src={flag} className="w-[107px] h-[72px]" alt="" />
-                        <p className="text-[16px] font-medium mb-[19px]">Team@smarqo.com</p>
-                        <p className="text-[21px] font-medium">+91 84568 65923</p>
+                        <p className="text-[16px] font-medium lg:mb-[19px] md:mb-[19px] mb-[16px]">Team@smarqo.com</p>
+                        <p className="lg:text-[21px] md:text-[21px] text-[18px] font-medium">+91 84568 65923</p>
                         <p className="text-[11px] font-light">(MON-FRI, 7 AM -9 PM)</p>
                         <div>
                             <div class="grid grid-flow-col gap-4">
