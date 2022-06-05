@@ -8,9 +8,7 @@ const Navbar = ({ children }) => {
             <div className="drawer shadow-lg shadow-black absolute">
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
-                    {/* <!-- Navbar --> */}
-
-                    <div className="w-full shadow-xs navbar py-12 mb-28">
+                    <div className="w-full shadow-xs navbar pt-8 pb-6 mb-5">
                         <div className="flex-1 px-2 mx-2 lg:block sm:block">
                             <div className="flex items-center justify-start">
                                 <Link to="/" className="flex items-center justify-start mr-[94px] "><img src={logo} className="w-[125px]" alt="" />
