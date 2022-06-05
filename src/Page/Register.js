@@ -10,7 +10,7 @@ const Register = () => {
                         <div className="lg:grid lg:grid-cols-2 lg:gap-5 md:grid md:grid-cols-1">
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text">First name</span>
+                                    <span class="label-text">First NAME</span>
                                 </label>
                                 <label class="input-group">
                                     <select class="select select-bordered">
