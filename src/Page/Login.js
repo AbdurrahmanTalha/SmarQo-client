@@ -4,29 +4,29 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div className=" py-10">
-            <div class="card lg:w-[649px] md:w-[649px] sm:w-4/6 mx-auto bg-none lg:drop-shadow-md md:drop-shadow-md  md:bg-base-100 lg:bg-base-100  my-10 ">
+            <div className="card lg:w-[649px] md:w-[649px] sm:w-4/6 mx-auto bg-none lg:drop-shadow-md md:drop-shadow-md  md:bg-base-100 lg:bg-base-100  my-10 ">
                 <h2 className="text-[69px] font-medium ml-5">Login</h2>
-                <div class="card-body">
+                <div className="card-body">
                     <form action="" >
-                        <div class="form-control w-full mr-5">
-                            <label class="label">
-                                <span class="label-text">Email</span>
+                        <div className="form-control w-full mr-5">
+                            <label className="label">
+                                <span className="label-text">Email</span>
                             </label>
-                            <input type="text" placeholder="Enter your email" class="focus:border-0 input input-bordered w-auto " />
+                            <input type="text" placeholder="Enter your email" className="focus:border-0 input input-bordered w-auto " />
                         </div>
-                        <div class="form-control w-full ">
-                            <label class="label">
-                                <span class="label-text">Password</span>
+                        <div className="form-control w-full ">
+                            <label className="label">
+                                <span className="label-text">Password</span>
                             </label>
-                            <input type="text" placeholder="Enter your Password" class="focus:border-0 input input-bordered w-full" />
-                            <label class="label">
-                                <div class="form-control">
-                                    <label class="label cursor-pointer">
-                                        <input type="checkbox" class="checkbox mr-2" />
-                                        <span class="label-text">Remember me</span>
+                            <input type="text" placeholder="Enter your Password" className="focus:border-0 input input-bordered w-full" />
+                            <label className="label">
+                                <div className="form-control">
+                                    <label className="label cursor-pointer">
+                                        <input type="checkbox" className="checkbox mr-2" />
+                                        <span className="label-text">Remember me</span>
                                     </label>
                                 </div>
-                                <span class="label-text-alt underline">Forget Password?</span>
+                                <span className="label-text-alt underline">Forget Password?</span>
                             </label>
                         </div>
                         <div className="flex flex-col justify-center items-center">
@@ -35,8 +35,8 @@ const Login = () => {
 
                     </form>
                 </div>
-                <div class="flex flex-col w-full border-opacity-50">
-                    <div class="text-center text-[13px]  font-medium mb-[19px] text-[#7D7D7D]">OR</div>
+                <div className="flex flex-col w-full border-opacity-50">
+                    <div className="text-center text-[13px]  font-medium mb-[19px] text-[#7D7D7D]">OR</div>
                     <h2 className="text-center text-[19px] mb-[36px] font-medium">Register</h2>
 
                 </div>

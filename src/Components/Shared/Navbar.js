@@ -1,25 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../images and icons/sqo log.png"
+import logo from "../../assets/sqo log.png"
 
 const Navbar = ({ children }) => {
     return (
         <>
-            <div class="drawer shadow-lg shadow-black absolute">
-                <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-                <div class="drawer-content flex flex-col">
+            <div className="drawer shadow-lg shadow-black absolute">
+                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content flex flex-col">
                     {/* <!-- Navbar --> */}
 
-                    <div class="w-full shadow-xs navbar py-12 mb-28">
-                        <div class="flex-1 px-2 mx-2 lg:block sm:block">
+                    <div className="w-full shadow-xs navbar py-12 mb-28">
+                        <div className="flex-1 px-2 mx-2 lg:block sm:block">
                             <div className="flex items-center justify-start">
                                 <Link to="/" className="flex items-center justify-start mr-[94px] "><img src={logo} className="w-[125px]" alt="" />
                                     <span className="ml-[-25px] md:block hidden lg:block text-[31px]">SmarQo</span></Link>
-                                <div class="dropdown bg-none hidden lg:block md:block">
-                                    <label tabindex="0" class="ml-5 ">
-                                        <span className="text-sm text-[#5D6277]">Explore  <i class="fa-solid fa-arrow-down"></i></span>
+                                <div className="dropdown bg-none hidden lg:block md:block">
+                                    <label tabIndex="0" className="ml-5 ">
+                                        <span className="text-sm text-[#5D6277]">Explore  <i className="fa-solid fa-arrow-down"></i></span>
                                     </label>
-                                    <ul tabindex="0" class="dropdown-content flex flex-col menu p-2 shadow bg-base-100 rounded-box w-52">
+                                    <ul tabIndex="0" className="dropdown-content flex flex-col menu p-2 shadow bg-base-100 rounded-box w-52">
                                         <li><Link to="/login" className="text-[#B4B8CC] sm:btn ">LOGIN</Link></li>
                                         <li><Link to="/register" className="text-[#B4B8CC] sm:btn">SIGN UP</Link></li>
                                     </ul>
@@ -28,8 +28,8 @@ const Navbar = ({ children }) => {
 
                         </div>
                         <div>
-                            <div class="flex-none block justify-center items-center">
-                                <ul class="menu menu-horizontal flex flex-col ">
+                            <div className="flex-none block justify-center items-center">
+                                <ul className="menu menu-horizontal flex flex-col ">
                                     {/* <!-- Navbar menu content here --> */}
                                     <div className="flex mr-0 ml-auto mb-[-8px]">
                                         <li><Link to="/login" className="text-[#B4B8CC] hidden
