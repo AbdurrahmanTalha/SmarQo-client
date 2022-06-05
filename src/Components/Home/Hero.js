@@ -7,7 +7,7 @@ import "./Hero.css"
 const Hero = () => {
     return (
         <div className="hero min-h-screen">
-            <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1 mt-16">
+            <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1 mt-16 container mx-auto">
                 <div className="flex flex-col items-center justify-center mt-24 lg:mt-0 md:mt-0">
                     <div className='block md:flex lg:flex'>
                         <img src={Girl} alt="" className="mx-auto lg:md:mx-none z-0" />
@@ -24,7 +24,7 @@ const Hero = () => {
 
                     <div className='block md:flex lg:flex flex-row-reverse mt-[100px]'>
                         <img className='mx-auto lg:mt-[-37px] md:mt-[-37px]' src={Phone} alt="" />
-                        <div className='bg-[#202020] relative w-[446px] h-[100%] lg:mt-[60px] md:mt-[60px] mt-[-40px] mr-[-38px]  py-4 px-6 '>
+                        <div className='bg-[#202020] relative lg:md:w-[446px] h-[100%] lg:mt-[60px] md:mt-[60px] mt-[-40px] mr-[-38px]  py-4 px-6 w-[115%]'>
                             <div className='flex md:mr-[-30px] justify-between mr-[18px]'>
                                 <h2 className='text-[1.2rem] text-[#FFFFFF]'>Get Smart Quotes from <br /> top industry experts</h2>
                                 <h2 className='text-[114px] text-[#454545] w-[100% font-semibold mt-[-57px] mb-[-55px]'>2</h2>
@@ -48,7 +48,7 @@ const Hero = () => {
                                 <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-26px]">3</div>
                             </div>
                         </div> */}
-                        <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[-10px] lg:mt-[160px]  md:mt-[150px]  ml-[-35px] flex relative z-20'>
+                        <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[-10px] lg:mt-[160px]  md:mt-[150px]  ml-[-35px] flex relative z-20 sm:w-[108%]'>
                             <div className="relative">
                                 <h2 className='text-[1.2rem] text-[#FFFFFF]'>Hire the best professional</h2>
                                 <p className='text-[12px] pt-2 text-[#FFFFFF]'>find the best ones for what you need & Connect!</p>
