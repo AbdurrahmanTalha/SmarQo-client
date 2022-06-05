@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import home1 from "../../images and icons/home 1st image.png";
 import home2 from "../../images and icons/home 2nd image.png";
 import home3 from "../../images and icons/home 3rd image.png";
 import Girl from "../../images and icons/girl.png";
+import Phone from "../../images and icons/phone.png";
+import Man from "../../images and icons/Mask Group 2.png";
 const Hero = () => {
     return (
         <div class="hero min-h-screen">
@@ -14,16 +15,32 @@ const Hero = () => {
                         <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[10px] 
                         ml-[-35px] flex'>
                             <div>
-                                <h2 className='text-[26px] text-[#FFFFFF]'>Tell us what u need</h2>
+                                <h2 className='text-[1.2rem] text-[#FFFFFF]'>Tell us what u need</h2>
                                 <p className='text-[12px] text-[#FFFFFF]'>Whatever the service you're looking for, we'll help you find a professional for the job.</p>
                             </div>
-                            <h1 className='text-[114px] text-[#484848] mt-[-20px] 
-                            mb-[-70px] mr-[-15px]'>1</h1>
+                            <div className="overflow-hidden w-1/5 mb-[-60px] mr-[-5px]">
+                                <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-18px]">1</div>
+                            </div>
                         </div>
                     </div>
-                    {/* <img src={home1} alt="" /> */}
+
                     <img src={home2} alt="" />
-                    <img src={home3} alt="" />
+                    {/* <img src={home3} alt="" /> */}
+
+                    <div className='flex'>
+                        <img src={Man} alt="" />
+                        <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[130px] 
+                        ml-[-35px] flex'>
+                            <div>
+                                <h2 className='text-[1.2rem] text-[#FFFFFF]'>Hire the best professional
+                                </h2>
+                                <p className='text-[12px] text-[#FFFFFF]'>find the best ones for what you need & Connect!</p>
+                            </div>
+                            <div className="overflow-hidden w-[32%] mr-[-48px] mb-[-60px]">
+                                <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-26px]">3</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="order-first">
                     <h1 class="text-5xl w-full ">Request <br></br><span className="font-bold">Smart Quotes</span><br></br> from professionals</h1>
