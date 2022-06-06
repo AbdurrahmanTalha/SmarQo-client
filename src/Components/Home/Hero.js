@@ -6,7 +6,7 @@ import Man from "../../assets/Guy.png";
 import "./Hero.css"
 const Hero = () => {
     return (
-        <div className="hero min-h-screen">
+        <div className="hero min-h-screen p-5">
             <div className="hero-content grid lg:grid-cols-2 sm:grid-cols-1 mt-16 container mx-auto">
                 <div className="flex flex-col items-center justify-center mt-24 lg:mt-0 md:mt-0">
                     <div className='block md:flex lg:flex'>
@@ -36,18 +36,6 @@ const Hero = () => {
                     </div>
                     <div className='block md:flex lg:flex lg:mt-[-70px] md:mt-[70px] mt-[100px]'>
                         <img src={Man} alt="" className="mx-auto " />
-                        {/* <div className='bg-[#202020] py-4 px-6 h-[100%] lg:mt-[130px] md:mt-[130px]
-                        mt-[-10px] ml-[-16px] flex relative z-20'>
-                            <div className="relative">
-                                <h2 className='text-[1.2rem] text-[#FFFFFF]'>Hire the best professional
-                                </h2>
-                                <p className='text-[12px] pt-2 text-[#FFFFFF]'>find the best ones for what you need & Connect!</p>
-                                <div className="triangle-2 hidden lg:block md:block"></div>
-                            </div>
-                            <div className="overflow-hidden w-[32%] mr-[-48px] mb-[-60px]">
-                                <div className="text-[114px] text-[#454545] w-[100% font-semibold mt-[-26px]">3</div>
-                            </div>
-                        </div> */}
                         <div className='bg-[#202020] py-4 px-6 h-[100%] mt-[-10px] lg:mt-[160px]  md:mt-[150px]  ml-[-35px] flex relative z-20 sm:w-[108%]'>
                             <div className="relative">
                                 <h2 className='text-[1.2rem] text-[#FFFFFF]'>Hire the best professional</h2>
