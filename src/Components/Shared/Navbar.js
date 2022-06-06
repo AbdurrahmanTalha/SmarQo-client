@@ -18,7 +18,7 @@ const Navbar = ({ children }) => {
                                         <span className="text-sm text-[#5D6277]">Explore  <i className="fa-solid fa-arrow-down"></i></span>
                                     </label>
                                     <ul tabIndex="0" className="dropdown-content flex flex-col menu p-2 shadow bg-base-100 rounded-box w-52">
-                                        <li><Link to="/login" className="text-[#B4B8CC] sm:btn ">LOGIN</Link></li>
+                                        <li><Link to="/login" className="text-[#B4B8CC] sm:btn sm:p-[15px]">LOGIN</Link></li>
                                         <li><Link to="/register" className="text-[#B4B8CC] sm:btn">SIGN UP</Link></li>
                                     </ul>
                                 </div>
